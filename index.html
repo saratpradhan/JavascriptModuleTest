@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Dangrek' rel='stylesheet'>
+    <link rel = 'stylesheet' href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h4>SCISSORS</h4>
+            <h4>PAPER</h4>
+            <h4>ROCK</h4>
+        </div>
+
+        <div class="scoreboard">
+            <!-- <p>COMPUTER SCORE<span id="computer_Score">0</span></p>
+            <p>YOUR SCORE<span id ='Playser_Score'>0</span></p> -->
+            <div class="scoreboard_score">
+                <p>COMPUTER SCORE </p>
+                <h2 id="compid">0</h2>
+            </div>
+
+            <div class="scoreboard_score">
+                <p>YOUR SCORE </p>
+                <h2 id="scoreid">0</h2>
+            
+            </div>
+
+        </div>
+    </div>
+
+    <div class="choice-container">
+
+        <div class="choices">
+            <button id="rock"></button>
+            <button id="paper"></button>
+            <button id="scissors"></button>
+        </div>
+
+        <div class="mylines">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+    
+        </div>
+   
+
+    </div>
+
+
+        
+<!-- 
+        <div class="result">
+            <p id="message">Make your choice</p>
+        </div> -->
+
+        <div class="rules" id="rules">
+            <button class="cancel">X</button>
+            <h3>Game Rules</h3>
+            <ul class="points">
+                <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+                <li>Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li>
+                <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+                <li>If both players lay down the same hand, each player lays down another hand</li>
+            </ul>
+
+
+        </div>
+                <button class="rules-btn" id = 'toggle-rules-btn'>RULES</button>
+
+
+<!-- Below result logic :lets create a placeholder for ur result data
+so whatever result is holding value of , itwill store it in this below  -->
+
+        <div class="resultText" id="Textresult"></div>
+  
+
+
+        <div class="scoreResult">
+            
+        </div>
+
+        <div class="text">Against pc
+        </div>
+
+        <!-- <div class="resultMessage1" id="WinningresultMessage">
+            <h2>You Win</h2>
+            <h3>Against PC</h3>
+        </div>
+
+        <div class="resultMessage2" id="LoosingresultMessage">
+            <h2>You Lost</h2><br>
+            <h3>Against PC</h3>
+        </div>
+
+        <div class="resultMessage3" id="TieresultMessage">
+            <h2>Tie Up</h2><br>
+        </div> -->
+
+    
+      
+
+
+
+       
+     
+
+    <script src="script2.js"></script>
+    
+</body>
+</html>
